@@ -1,0 +1,418 @@
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.header{
+width:100vw;
+height: 4.2185vw;
+background-color: #88C896;
+flex-direction: row;
+display:flex;
+}
+
+.topletter{
+  flex-direction: row;
+  display:flex;
+  /* width: 14.5313vw;
+  height:1.0938vw; */
+  font-size: 0.9375vw;
+  font-family: DFHei Std;
+  color:#ffffff;
+  margin-top: 1.5625vw;
+  margin-left: 14.0625vw;
+}
+
+@media(max-width:500px){
+  .topletter{
+    flex-direction: row;
+    display:flex;
+    /* width: 14.5313vw;
+    height:1.0938vw; */
+    font: size 4px;
+    font-family: DFHei Std;
+    color:#ffffff;
+    margin-top: 3px;
+    margin-left: 29px;
+  }
+}
+
+
+.mainpage{
+  margin:0px 1.875vw 0px 0px;
+}
+
+.fenlei{
+  margin-right:1.875vw;
+}
+
+.leftbar{
+  flex-direction: row;
+  display:flex;
+}
+
+.carpic{
+  margin:1.328vw 0.39vw 1.328vw 44.41vw;
+  width:1.5625vw;
+  height: 1.5625vw;
+}
+
+.carnum{
+  margin:1.5625vw 0.7813vw 1.5625vw 0px;
+  font-size: 0.9375vw;
+  font-family: DFHei Std;
+  color:#ffffff;
+}
+
+.bill{
+  margin:1.5625vw 2.1875vw 1.5625vw 0px;
+  font-size: 0.9375vw;
+  font-family: DFHei Std;
+  color:#ffffff;
+}
+
+.quepic{
+  margin:1.328vw 5px 1.328vw 0px;
+  width:1.5625vw;
+  height: 1.5625vw;
+}
+
+.help{
+  margin:1.5625vw 2.1875vw 1.5625vw 0px;
+  font-size: 0.9375vw;
+  font-family: DFHei Std;
+  color:#ffffff;
+}
+
+.underheader{
+  margin-left:13.125vw;
+  margin-right:180px;
+  flex-direction: row;
+  display:flex;
+}
+
+.logo{
+  width:25.859vw;
+  height:6.875vw;
+  margin-right:1.09375vw;
+}
+
+.searchbar{
+  margin-top:2.5781vw;
+  flex-direction: row;
+  display:flex;
+  width:38.672vw;
+  height:2.3438vw;
+  font-family: DFHei Std;
+}
+
+.inputttt{
+  width:29.6875vw;
+  height:2.3438vw;
+  padding:0.3906vw;
+  font-size: 0.9375vw;
+  font-family: DFHei Std;
+  color:gray;
+  cursor: auto;
+}
+
+.searchall{
+  flex-direction: row;
+  display:flex;
+  font-size: 0.9375vw;
+  font-family: DFHei Std;
+  width:6.25vw;
+  height:2.3438vw;
+}
+
+.searchalltext{
+  padding:0.3125vw;
+  margin-left:0.78125vw;
+}
+
+.downarrow{
+  width:1.25vw;
+  height:0.5469vw;
+  margin:0.859vw 0px 0px 4px;
+}
+
+.search{
+  width:2.734vw;
+  height:2.3438vw;
+  background-color:#88C897 ;
+}
+
+.searchpic{
+  width:1.40625vw;
+  height:1.3281vw;
+  margin:0.4688vw 0px 0.4688vw 0.7031vw;
+}
+
+.login{
+  width:6.1719vw;
+  height:2.3438vw;
+  padding-top:0.46875vw;
+  padding-bottom:0.625vw;
+  padding-left: 0.8vw;
+  margin-top:2.5781vw;
+  margin-left:1.0156vw;
+  color:white;
+  flex-direction: column;
+  font-size:0.9375vw;
+  font-family: DFHei Std;
+  background-color:#88C897 ;
+}
+
+.photowall{
+  flex-direction: row;
+  display:flex;
+  width:71.9531vw;
+  height:25.234vw;
+  margin-left: 14.0625vw;
+}
+
+.arrowleft1{
+  margin-top:9.531vw;
+  margin-left: 0.78125vw;
+  margin-right:-3.203vw;
+  width:2.422vw;
+  height:6.016vw;
+  z-index:1 ;
+}
+
+.uparrowleft{
+  width:2.422vw;
+  height:6.016vw;
+}
+
+.uparrowright{
+  width:2.422vw;
+  height:6.016vw;
+}
+
+.toppic{
+  width:71.7183vw;
+  height:25.073vw;
+}
+
+.dot{
+  width:10.078vw;
+  height:0.8594vw;
+  margin-top:23.047vw;
+  margin-left:-40.86vw;
+  z-index:1 ;
+}
+
+.arrowright1{
+  margin-top:9.531vw;
+  margin-left:27.7vw;
+  width:2.422vw;
+  height:6.016vw;
+  z-index:1 ;
+}
+
+.producttable{
+  margin:2.8125vw 0px 0px 14.1406vw;
+
+}
+
+/*.tablebox{
+  flex-direction: column;
+  display:flex;
+}*/
+
+.table1{ 
+  width:71.7183vw;
+  height:35.8594vw;
+  display: none;
+}
+
+@media only screen and (min-width:550px) {
+  .table1 { display: block; }
+}
+
+.table1 th{ /*設定表格中的標題欄位樣式*/
+  width: 11.9531vw;
+  height:11.9531vw;
+  border:1px solid black;
+  border-collapse:collapse;
+  flex-direction: column;
+  text-align: center;
+  /* display:flex; */
+} 
+
+.tabpic{
+  width: 7.815vw;
+  height: 7.8906vw;
+}
+
+.tabtext{
+  font-size:0.9375vw;
+  font-family: DFHei Std;
+  margin:0 auto;
+}
+
+.newestbox{
+  background-color: #88C897;
+  flex-direction: column;
+  display:flex;
+  width: 71.71875vw;
+  height: 27.8125vw;
+  margin:2.8125vw 0px 2.8125vw 14.1406vw;
+}
+
+
+
+.newtext1{
+  font-size: 1.71875vw;
+  font-family: DFHei Std;
+  /* font-weight: bold; */
+  margin:1.953125vw 0px 0px 2.5vw;
+}
+
+.newline{
+  width:66.4843vw;
+  height:1px;
+  background-color:black;
+  z-index: 1;
+  margin:0.546875vw 0vw 0vw 2.5vw;
+}
+
+.newcard{
+  flex-direction: row;
+  display:flex;
+  margin:1.5625vw 0 0 0.39063vw;
+}
+
+.newcard1{
+  flex-direction: row;
+  display:flex;
+ 
+}
+
+@media screen and (max-width:320px){
+  .newcard1{
+    flex-direction: column;
+    display:flex;
+   
+  }
+}
+
+.newcard111{
+  flex-direction: row;
+  display:flex;
+}
+
+.newcard222{
+  flex-direction: row;
+  display:flex;
+}
+
+
+.arrowleft_2{
+  margin-top:7.5vw;
+  margin-right: 0.7813vw;
+}
+
+.card1{
+  width: 15.15625vw;
+  height: 19.375vw;
+  background-color: #ffffff;
+  margin:0 1.9531vw 0 0;
+  flex-direction: column;
+  display:flex;
+}
+
+.cardpic{
+  width: 10.7091vw;
+  height: 11.4063vw;
+  margin:1.6406vw 0 0 2.1875vw;
+}
+
+.cardtext{
+  font-family: 微軟正黑體;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 4px;
+  margin:0 0 0 2.1875vw;
+}
+
+.cardtext2{
+  font-family: DFHei Std;
+  font-style: normal;
+  font-size: 0.9375vw;
+  margin:0 0 0 2.1875vw;
+}
+
+.cardtext3{
+  width: 4.21vw;
+  height: 2.03125vw;
+  font-family: DFHei Std;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 1.5vw;
+  margin:0 0 0 2.1875vw;
+}
+
+.money{
+  flex-direction: row;
+  display:flex;
+}
+
+.carpic2{
+  width: 1.5625vw;
+  height: 1.4844vw;
+  margin:0.45vw 0 0 3.56vw;
+}
+
+.star{
+  width: 1.5625vw;
+  height: 1.5625vw;
+  margin:0.45vw 0 0 0.39063vw;
+}
+
+.card2{
+  width: 15.15625vw;
+  height: 19.375vw;
+  background-color: #ffffff;
+  margin:0;
+}
+
+.arrowright_2{
+  margin-top:7.5vw;
+  margin-left: 0.7813vw;
+}
+
+.footerbox{
+  margin-top:2.8125vw;
+  width: 100vw;
+  height: 8.75vw;
+  background-color: #C9C9CA;
+  font-size: 0.9375vw;
+  font-family: DFHei Std;
+}
+
+.footertext1{
+  padding-top: 2.6563vw;
+  padding-left: 20vw;
+  flex-direction: row;
+  display:flex;
+}
+
+.footertext2{
+  margin-top: 1.25vw;
+  padding-left: 22.6563vw;
+  flex-direction: row;
+  display:flex;
+}
+
+.footerline{
+  width: 1px;
+  height: 0.8203vw;
+  background-color:black;
+  margin-left: 1.5626vw;
+  margin-right: 1.5626vw;
+  margin-top: 0.234375vw;
+}
+
+
